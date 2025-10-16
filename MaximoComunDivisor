@@ -1,11 +1,17 @@
 fun main() {
-    
     val primerNumero: Int = 48
     val segundoNumero: Int = 18
-    while(segundoNumero != 0){
-        val resto = primerNumero%segundoNumero
-        a = b
-        b = resto
-    }
-    println("El minimo comun múltiplo es: $a")
+    val resultado = maximoComunDivisor(primerNumero,segundoNumero)
+    println("El minimo comun múltiplo es: $resultado")
 }
+fun maximoComunDivisor(primerNumero : Int, segundoNumero: Int): Int{
+     var x = primerNumero
+    var y = segundoNumero
+    while(y != 0){  
+        val resto = x % y
+        x = y
+        y = resto
+        
+    }  
+    return x
+} 
