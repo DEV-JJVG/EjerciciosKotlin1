@@ -4,7 +4,6 @@ fun main() {
     println("Los factores primos de $numero son: $factoresPrimos")
 }
 
-// Función que devuelve la lista de factores primos
 fun descomponerEnFactoresPrimos(numero: Int): MutableList<Int> {
     var n = numero
     val factores = mutableListOf<Int>()
