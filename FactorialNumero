@@ -1,8 +1,8 @@
 fun main() {
     print("Introduce un número: ")
-    val numero = readLine()!!.toInt()
-    var factorial = 1
-    for (i in numero downTo 1) {
+    val numeroFactorial: Int = readLine()!!.toInt()
+    var factorial: Int  = 1
+    for (i in numeroFactorial downTo 1) {
         factorial *= i
     }
     println("El factorial de $numero es $factorial")
