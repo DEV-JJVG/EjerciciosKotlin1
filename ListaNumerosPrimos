@@ -1,7 +1,7 @@
 fun main() {
     val numero = 84
     val factoresPrimos = descomponerEnFactoresPrimos(numero)
-    println("Los factores primos de $numero son: $factores")
+    println("Los factores primos de $numero son: $factoresPrimos")
 }
 
 // Función que devuelve la lista de factores primos
