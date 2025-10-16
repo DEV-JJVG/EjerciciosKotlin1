@@ -1,0 +1,9 @@
+fun main() {
+    esPrimo()
+} 
+fun esPrimo(){
+    val numeroAValidar: Int = 33
+    if(numeroAValidar % 2 == 1){
+        println("El número $numeroAValidar es primo")
+    } else println("El número $numeroAValidar no es primo")
+} 
