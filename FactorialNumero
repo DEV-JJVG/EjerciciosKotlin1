@@ -1,5 +1,8 @@
-var: Int numero = 5
-var: Int factorial = 0
-for (i in numero..1){
-    factorial += numero * i
+fun main() {
+var numeroFactorial = 5
+var factorial = 1
+for (i in numeroFactorial downTo 1){
+    factorial *= i
+}
+print(factorial)
 }
