@@ -1,0 +1,12 @@
+fun main() {
+    print("Introduce el primer número: ")
+    val primerNumero: Int = readLine()!!.toInt()
+    print("Introduce el segundo número: ")
+    val segundoNumero: Int = readLine()!!.toInt()
+    while(segundoNumero != 0){
+        val resto = primerNumero%segundoNumero
+        a = b
+        b = resto
+    }
+    println("El minimo comun múltiplo es: $a")
+}
