@@ -5,5 +5,5 @@ fun main() {
     for (i in numeroFactorial downTo 1) {
         factorial *= i
     }
-    println("El factorial de $numero es $factorial")
+    println("El factorial de $numeroFactorial es $factorial")
 }
