@@ -1,0 +1,5 @@
+var: Int numero = 5
+var: Int factorial = 0
+for (i in numero..1){
+    factorial += numero * i
+}
